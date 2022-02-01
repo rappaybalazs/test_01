@@ -1,0 +1,40 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(136, 136, 251);
+    color: #fff;
+    text-align: center;
+}
+
+button{
+
+    background: rgba(41, 41, 255, 0.7);
+    padding: 15px 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+.result{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.car{
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
